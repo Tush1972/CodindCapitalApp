@@ -1,0 +1,53 @@
+/* Write your CSS here */
+/* src/components/Capitals/index.css */
+
+.capitals-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: #f8fafc;
+}
+
+.capitals-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.capital-button {
+  padding: 8px 16px;
+  background-color: #93c5fd;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.capital-button.active {
+  background-color: #cbd2d9;
+  color: black;
+}
+
+.selected-capital {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.selected-capital h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #323f4b;
+}
+
+.selected-capital p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #1e293b;
+}
